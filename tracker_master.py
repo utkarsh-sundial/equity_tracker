@@ -3,9 +3,9 @@ import yfinance as yf
 
 # resources:
 # 1. https://analyticsindiamag.com/hands-on-guide-to-using-yfinance-api-in-python/
+# 2. https://nsetools.readthedocs.io/en/latest/usage.html
 
 company_name = yf.Ticker('PFE')
-a = company_name.info
 
 company_info = pd.DataFrame(company_name.info.items(), columns = ['parameter', 'value'])
 
