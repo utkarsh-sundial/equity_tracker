@@ -23,4 +23,3 @@ company_recommendations = company_name.recommendations
 
 # function to know about the company's earnings and revenue
 company_calendar = company_name.calendar
-
